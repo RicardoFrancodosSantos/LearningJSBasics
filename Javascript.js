@@ -1,5 +1,5 @@
-function minhaFuncao() {
-    console.log('Olá função!')
+const myArrowFunction = (a, b) => {
+    return a + b
 }
 
-minhaFuncao()
+console.log(myArrowFunction(2,5))
