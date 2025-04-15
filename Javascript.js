@@ -17,3 +17,14 @@ console.log(socks.price)
 console.log(shirt.name)
 
 console.log(shirt.productDetails)
+
+class SuperProduct extends Product {
+    constructor(name, price, size) {
+        super(name, price)
+        this.size = size
+    }
+}
+
+const tenis = new SuperProduct('Tenis vermelho', 59.90, '42')
+console.log(tenis.name)
+console.log(tenis.size)
