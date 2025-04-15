@@ -1,7 +1,5 @@
+ const bigNumbers = [1, 2, 3, 4 , 5, 10, 100].filter(function(number) {
+    return number >= 5
+ })
 
-const names = ["Matheus","João", "Pedro" , "Maria"]
-
-names.forEach(function(name) {
-    console.log('o nome é : ${name}')
-
-} )
+ console.log(bigNumbers)
