@@ -1,5 +1,7 @@
- const bigNumbers = [1, 2, 3, 4 , 5, 10, 100].filter(function(number) {
-    return number >= 5
+
+
+ const sumAll = [10, 20, 30 ,40 , 50].reduce(function(total, number) {
+    return total + number
  })
 
- console.log(bigNumbers)
+ console.log(sumAll)
