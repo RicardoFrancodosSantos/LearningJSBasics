@@ -1,14 +1,7 @@
 
-const myList = [1, 2, 3, 4, 5]
-let counter = 0
+const names = ["Matheus","João", "Pedro" , "Maria"]
 
-while (counter < myList.length) {
- console.log('Imprimindo: ' + myList[counter])
- counter++
-}
+names.forEach(function(name) {
+    console.log('o nome é : ${name}')
 
-const mySecondList = ['a', 'b', 'c', 'd', 'e']
-
-for (let counter = 0; counter < mySecondList.length; counter++) {
-    console.log('Imprimindo:  ${mySecondList[counter]}')
-}
+} )
