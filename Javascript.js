@@ -23,8 +23,14 @@ class SuperProduct extends Product {
         super(name, price)
         this.size = size
     }
+
+    static sayHello() {
+        console.log('Hello')
+    }
 }
 
 const tenis = new SuperProduct('Tenis vermelho', 59.90, '42')
 console.log(tenis.name)
 console.log(tenis.size)
+
+SuperProduct.sayHello()
